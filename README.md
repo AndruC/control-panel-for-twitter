@@ -1,4 +1,4 @@
-# Control Panel for Twitter
+# Control Panel for Twitter (fork)
 
 ![](icons/icon128.png)
 
@@ -6,21 +6,18 @@
 
 ## Install
 
-* [Safari Extension](https://apps.apple.com/app/id1668516167?platform=iphone) - for iPhone, iPad and Mac
-
-  [![Download on the App Store](promo/app-store.png)](https://apps.apple.com/app/id1668516167?platform=iphone)
 * [Firefox Extension](https://addons.mozilla.org/firefox/addon/control-panel-for-twitter/) - can also be installed in the Android version of Firefox
 * [Chrome Extension](https://chrome.google.com/webstore/detail/control-panel-for-twitter/kpmjjdhbcfebfjgdnpjagcndoelnidfj) - can also be installed in Edge, Opera, and Brave on desktop, and [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) on Android
-* [Edge Add-on](https://microsoftedge.microsoft.com/addons/detail/control-panel-for-twitter/foccddlibbeccjiobcnakipdpkjiijjp)
 * [User script version](https://greasyfork.org/en/scripts/387773-control-panel-for-twitter) - requires a [user script manager](https://greasyfork.org/en#home-step-1)
+* [Safari for iOS Extension](https://apps.apple.com/app/id1668516167?platform=iphone)
+  
+  [![Download on the App Store](promo/app-store.png)](https://apps.apple.com/app/id1668516167?platform=iphone)
 
 ## Releases / What's New?
 
-The [Control Panel for Twitter Releases page](https://github.com/insin/control-panel-for-twitter/releases) highlights new features, changes and fixes in each version, and shows which version is currently published on each of the browser extension stores.
+The Control Panel for Twitter has been forked! This fork will strip out much of the configuration and UX, in favour of producing a drop-in, turnkey solution for a healthier, calmer Twitter/X.
 
-New versions can take anything from minutes to days to be approved for publishing after they're submitted to a browser extension store.
-
-## Features
+## Features (for now)
 
 ### Home timeline
 
@@ -118,18 +115,6 @@ New versions can take anything from minutes to days to be approved for publishin
 | - | - |
 | ![Scteenshot of a Twitter timeline with blank spaces where numbers for metrics should be](screenshots/hide_metrics.png) | ![Sceenshot of a mobile Twitter timeline with blank spaces where numbers for metrics should be](screenshots/firefox_android_hide_metrics.jpg) |
 
-### Uninverted Follow buttons
-
-| Monochrome | Themed |
-| - | - |
-| ![Uninverted Follow / Following buttons using the new monochrome Twitter style](screenshots/uninverted_follow_buttons_monochrome.png) | ![Uninverted Follow / Following buttons using the classic themed Twitter style](screenshots/uninverted_follow_buttons_themed.png) |
-
-### Disable use of Chirp font
-
-| Chirp on | Chirp off |
-| - | - |
-| ![A Twitter thread using the Chirp font](screenshots/chirp_on.png) | ![The same Twitter thread using the fallback system fonts](screenshots/chirp_off.png) |
-
 ### Improved Quote Tweets page
 
 The quoted tweet is hidden, instead of being duplicated under every quote, leaving more room for quotes
@@ -150,21 +135,11 @@ The quoted tweet is hidden, instead of being duplicated under every quote, leavi
 | - | - |
 | ![Screenshot of Twitter without the Home navigation item](screenshots/disable_home_timeline.png) | ![Screenshot of Twitter in Firefox on Android without the Home navigation item](screenshots/firefox_android_disable_home_timeline.jpg) |
 
-### Configurable via options popup and the extension options page
-
-| Desktop | Mobile |
-| - | - |
-| ![Screenshot of the options popup in Chrome on desktop](screenshots/options_popup.png) | ![Screenshot of the options popup in Firefox on Android on Android](screenshots/firefox_android_options_popup.jpg) |
-
-### No trends on Explore screen, just search
-
-| Mobile |
-| - |
-| ![Screenshot of the Explore screen in mobile Twitter, with only the search part of the screen visible](screenshots/firefox_android_explore.jpg) |
-
 ### Language support
 
-As of v2.2, all 48 of the display languages available on Twitter are supported, some examples:
+As of v2.2, all 48 of the display languages available on Twitter are supported. Language support is a low priority while slashing and burning the config.
+
+Current support includes:
 
 | Gaeilge (Irish) | 日本語 (Japanese) | العربية (Arabic) |
 | - | - | - |
